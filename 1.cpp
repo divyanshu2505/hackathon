@@ -1,3 +1,6 @@
+//Optimizing Retail Inventory with Multi Agents
+
+
 #include <iostream>
 #include <vector>
 #include <map>
