@@ -1,0 +1,14 @@
+{
+  "name": "lifeos-ai-mern",
+  "private": true,
+  "version": "1.0.0",
+  "description": "LifeOS AI MERN monorepo",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
