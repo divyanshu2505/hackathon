@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FutureType 3D Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <header class="site-header">
+      <div class="logo">FutureType<span>3D</span></div>
+      <nav>
+        <a href="#catalog">Catalog</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+      </nav>
+      <button id="cartBtn" class="ghost-btn">Cart (<span id="cartCount">0</span>)</button>
+    </header>
+
+    <main>
+      <section class="hero" id="experience">
+        <div>
+          <p class="kicker">NEXT-GEN ECOMMERCE</p>
+          <h1>Buy Tomorrow's Products in a 3D Shopping Experience</h1>
+          <p>
+            Explore holographic cards, dynamic depth effects, and a frictionless checkout flow tailored for
+            futuristic brands.
+          </p>
+          <button class="primary-btn" id="shopNow">Start Shopping</button>
+        </div>
+        <div class="hero-orb" aria-hidden="true"></div>
+      </section>
+
+      <section id="catalog" class="catalog">
+        <h2>Featured Drops</h2>
+        <div id="productGrid" class="product-grid"></div>
+      </section>
+
+      <section class="cart-panel" id="cartPanel" aria-live="polite">
+        <h3>Your Cart</h3>
+        <ul id="cartItems"></ul>
+        <p class="cart-total">Total: $<span id="cartTotal">0.00</span></p>
+        <button class="primary-btn">Checkout</button>
+      </section>
+
+      <section id="about" class="about">
+        <h2>Why FutureType 3D?</h2>
+        <p>
+          This concept storefront combines immersive visuals with practical conversion patterns—clear pricing,
+          quick add-to-cart actions, and responsive design.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
